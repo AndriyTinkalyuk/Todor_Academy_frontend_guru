@@ -1,0 +1,22 @@
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+
+td, th{ 
+    padding: 4px;
+    text-align: center;
+}
+
+
+.container { 
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    margin-top: 5px;
+}
