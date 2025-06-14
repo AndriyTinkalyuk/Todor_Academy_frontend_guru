@@ -1,0 +1,17 @@
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.change-name { 
+    padding: 8px 10px;
+    border-radius: 3px;
+    background-color: rgb(4, 181, 4);
+    cursor: pointer;
+    color: white;
+}
+
+.change-name:hover { 
+    background-color: green;
+}

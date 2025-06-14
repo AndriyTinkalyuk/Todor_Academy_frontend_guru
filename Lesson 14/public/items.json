@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1",
+    "name": "Protein Bar",
+    "imgURL": "https://gymbeam.ua/media/catalog/product/cache/bf5a31e851f50f3ed6850cbbf183db11/j/u/just_whey_chocolate_milkshake_1_kg_gymbeam_1.png",
+    "description": "High-protein energy bar with chocolate flavor.",
+    "price": 2.99,
+    "category": "Snacks"
+  },
+  {
+    "id": "2",
+    "name": "Whey Protein",
+    "imgURL": "https://gymbeam.ua/media/catalog/product/cache/bf5a31e851f50f3ed6850cbbf183db11/j/w/jw-gb-_0000s_0002_7.jpg",
+    "description": "Premium whey protein powder for muscle growth.",
+    "price": 29.99,
+    "category": "Proteins"
+  },
+  {
+    "id": "3",
+    "name": "Creatine Monohydrate",
+    "imgURL": "https://gymbeam.ua/media/catalog/product/cache/bf5a31e851f50f3ed6850cbbf183db11/u/n/untitled_design_28_.png",
+    "description": "Micronized creatine for strength and endurance.",
+    "price": 19.49,
+    "category": "Supplements"
+  },
+  {
+    "id": "4",
+    "name": "Multivitamin Complex",
+    "imgURL": "https://gymbeam.ua/media/catalog/product/cache/bf5a31e851f50f3ed6850cbbf183db11/j/w/jw-gb-_0000s_0002_7.jpg",
+    "description": "Daily multivitamin for active individuals.",
+    "price": 14.95,
+    "category": "Vitamins"
+  },
+  {
+    "id": "5",
+    "name": "Omega-3 Fish Oil",
+    "imgURL": "https://gymbeam.ua/media/catalog/product/cache/bf5a31e851f50f3ed6850cbbf183db11/j/w/jw-gb-_0000s_0002_7.jpg",
+    "description": "Supports heart, brain, and joint health.",
+    "price": 11.99,
+    "category": "Vitamins"
+  },
+  {
+    "id": "6",
+    "name": "Pre-Workout Booster",
+    "imgURL": "https://gymbeam.ua/media/catalog/product/cache/bf5a31e851f50f3ed6850cbbf183db11/j/w/jw-gb-_0000s_0002_7.jpg",
+    "description": "Explosive energy and focus before training.",
+    "price": 24.99,
+    "category": "Supplements"
+  },
+  {
+    "id": "7",
+    "name": "BCAA Amino Acids",
+    "imgURL": "https://gymbeam.ua/media/catalog/product/cache/bf5a31e851f50f3ed6850cbbf183db11/u/n/untitled_design_28_.png",
+    "description": "Recovery and muscle protection formula.",
+    "price": 21.50,
+    "category": "Amino Acids"
+  },
+  {
+    "id": "8",
+    "name": "Mass Gainer",
+    "imgURL": "https://gymbeam.ua/media/catalog/product/cache/bf5a31e851f50f3ed6850cbbf183db11/u/n/untitled_design_28_.png",
+    "description": "High-calorie formula for weight gain.",
+    "price": 34.90,
+    "category": "Gainers"
+  },
+  {
+    "id": "9",
+    "name": "Casein Protein",
+    "imgURL": "https://gymbeam.ua/media/catalog/product/cache/bf5a31e851f50f3ed6850cbbf183db11/s/h/shaker_black_gymbeam.jpg",
+    "description": "Slow-digesting protein ideal for nighttime.",
+    "price": 27.80,
+    "category": "Proteins"
+  },
+  {
+    "id": "10",
+    "name": "L-Carnitine Liquid",
+    "imgURL": "https://gymbeam.ua/media/catalog/product/cache/bf5a31e851f50f3ed6850cbbf183db11/s/h/shaker_black_gymbeam.jpg",
+    "description": "Fat metabolism and energy production support.",
+    "price": 17.25,
+    "category": "Fat Burners"
+  }
+]

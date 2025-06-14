@@ -1,0 +1,76 @@
+.catalog .card {
+    flex: 0 1 300px;
+    min-width: 150px;
+    max-width: 350px;
+    border: 1px solid white;
+    box-shadow: 5px 5px 20px rgba(255, 255, 255, 0.33);
+    padding: 40px 20px;
+}
+
+.catalog .card-image {
+    position: relative;
+    height: 200px;
+    width: 100%;
+}
+
+.catalog .card-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.catalog .card-name {
+    margin-top: 0.8em;
+    font-size: 1.2rem;
+}
+
+.catalog .card-category {
+    font-size: 0.8rem;
+}
+
+.card-description {}
+
+.card-price {}
+
+.card-btn {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: rgb(1, 171, 1);
+    color: white;
+    margin-top: 15px;
+    border-radius: 20px;
+}
+
+.cart { 
+    margin-top: 15px;
+}
+
+.cart .card { 
+    display: flex;
+    max-height: 200px;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid white;
+    box-shadow: 5px 5px 20px rgba(255, 255, 255, 0.33);
+    margin: 10px 0;
+}
+
+.cart .card-image {
+    position: relative;
+    height: 180px;
+    flex: 0 1 200px;
+}
+
+
+.cart .card-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}

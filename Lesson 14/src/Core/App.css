@@ -1,0 +1,43 @@
+#root {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 2rem;
+
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+  
+}
+
+ul {
+	list-style: none;
+}
+
+a { 
+	color: white;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+a:hover { 
+	text-shadow: 2px 2px 5px white;
+}
+
+a.active { 
+	text-decoration: underline;
+}
+
+
+h2 { 
+	margin: 10px 0;
+}
