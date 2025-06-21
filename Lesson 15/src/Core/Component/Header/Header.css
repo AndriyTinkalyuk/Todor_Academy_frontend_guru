@@ -1,0 +1,18 @@
+.header { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 100px;
+    margin-bottom: 20px;
+}
+
+.header-list { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.header-logo { 
+    font-size: 36px;
+}
