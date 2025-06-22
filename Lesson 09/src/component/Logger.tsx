@@ -2,7 +2,7 @@ import * as React from 'react';
 
 interface LoggerProps {
   someValue: string;
-  list: any[]; 
+  list: any[];
 }
 
 interface LoggerState {
@@ -36,7 +36,7 @@ export default class Logger extends React.Component<LoggerProps, LoggerState> {
 
   shouldComponentUpdate(nextProps: LoggerProps, nextState: LoggerState): boolean {
     console.log("it's shouldComponentUpdate");
-    return nextProps.someValue !== this.props.someValue;
+    return (nextProps.someValue !== this.props.someValue || nextProps.list !== this.props.list)
   }
 
   getSnapshotBeforeUpdate(prevProps: LoggerProps, prevState: LoggerState): number | null {
@@ -65,6 +65,11 @@ export default class Logger extends React.Component<LoggerProps, LoggerState> {
     return (
       <div ref={this.listEnd}>
         <p>Текущее значение: {this.state.someValue}</p>
+        {
+          this.props.list.length > 0 ?
+            this.props.list.map(item => <li key={item}>{item}</li>) :
+            <p>list empty</p>
+        }
       </div>
     );
   }
