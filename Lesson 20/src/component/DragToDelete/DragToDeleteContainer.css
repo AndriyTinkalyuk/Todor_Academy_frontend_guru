@@ -1,0 +1,13 @@
+.drag-delete-container {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.drag-delete {}
+.drag-basket {}
+
+.drag-block { 
+    padding: 30px;
+    flex: 0 1 50%;
+    border: 1px solid gray;
+}

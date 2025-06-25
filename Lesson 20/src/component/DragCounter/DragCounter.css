@@ -1,0 +1,22 @@
+.drag-counter {
+}
+.drop-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+    gap: 20px;
+}
+
+.drop-block {
+       flex: 1 1 50%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       border: 1px solid gray;
+       padding: 30px 0;
+}
+
+.drop-zone { 
+    flex-direction: column;
+}
